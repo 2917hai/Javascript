@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name::placeholder
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <p id="errorname"></p>
+        enter your name <input type="text" id="name"> <br> <br>
+
+        <p id="errormail"></p>
+        enter your Email <input type="text" id="mail"> <br> <br>
+
+        <p id="errornum"></p>
+        enter your Number <input type="text" id="num"> <br> <br>
+
+
+        <p id="errorpass"></p>
+        enter your pass <input type="text" id="pass"> <br> <br>
+
+       
+        <p id="errorcpass"></p>
+        enter your cpass<input type="text" id="cpass"> <br> <br>
+
+         <input type="submit" value="login" onclick="return sub()"> <br> <br>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>

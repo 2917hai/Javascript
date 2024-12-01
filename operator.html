@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /* function operator()
+        {
+           
+            alert("this is alert messege")
+            window.alert("this is second alert messege")
+            prompt("enter your name")
+            confirm("are you sure")
+            console.warn("you are fack person");
+            
+            
+
+
+            let num1=10;
+            let num2=20;
+            console.log(num1+num2)
+            alert("sum of num1 and num2 is     "+(num1+num2))
+            let no1=parseInt(prompt("enter first no1"));
+            let no2=parseInt(prompt("enter first no2"));
+            let no3=Number(prompt("enter you thirs no"));
+           let sum=no1+no2;
+            alert(sum)
+            alert(no1+no2);
+        let age=Number(prompt("enter your age no"));
+        if(age>=18)
+        {
+            alert("you can vote");
+        }
+        else
+        {
+            alert("can not vote");
+        }
+
+       
+        }
+        operator();
+        */
+ ///////////////////////1st question/////////////////////////////////////
+       
+       /*
+         function runn()
+        {
+
+            let age=Number(prompt("enter your age"))
+            alert(age)
+            age>18?alert("eligible"):alert("not eligible");
+        }
+
+
+
+  ///////////////////////second question/////////////////////////////////////
+        function run1()
+        {  
+           let check1= confirm("Have you complete your course");
+            let check2=confirm("you have also a certificate");
+            if(check1 && check2)
+        {
+            alert("completed")
+        }
+        else
+        {
+            alert("not complete")
+        }
+        }
+
+
+///////////////////////3rd question/////////////////////////////////////
+        function run2()
+        {
+            let price =Number(prompt("enter the price of item"))
+            let check3=("have coupon code")
+        if(check3)
+        {
+            let dis=(price*10)/100;
+            let amount=price-dis;
+            alert("total amount is "+amount);
+        }
+        else
+        {
+            alert("total amount is"+price)
+        }
+    }
+
+
+  ///////////////////////4th question/////////////////////////////////////
+        function run3()
+        {
+            let score=Number(prompt("enter the score"));
+            if(score>33)
+        {
+            alert("you have passed")
+        }
+        else
+        {
+            alert("failed")
+        }
+        }
+
+
+  ///////////////////////5th question/////////////////////////////////////
+        function run4()
+        {
+            let num=Number(prompt("enter no"));
+            if(num%2==0)
+        {
+            alert("even num");
+        }
+        else
+        {
+            alert("odd num");
+        }
+        }
+
+
+
+  ///////////////////////6th question/////////////////////////////////////      
+        function run5()
+        {  
+           let check5= confirm("are you sure to wante the delete");
+           if(check5)
+           {
+            alert("deleted")
+           }
+           else
+           {
+            alert("not deleted")
+           }
+           
+        }
+
+
+  ///////////////////////7th question/////////////////////////////////////
+        function run6()
+        {
+            let num22=Number(prompt("enter no"));
+            if(num22>0)
+        {
+            alert("possitive");
+        }
+        else
+        {
+            alert("Negative");
+        }
+        }
+  ///////////////////////function calling /////////////////////////////////////        
+        runn();
+        run1();
+        run2();
+        run3();
+        run4();
+        run5();
+        run6();
+        */
+       // DOM (Documents object model) it is a structure representation of a HTMl documents 
+       function run10()
+       {
+         let no=Number(prompt("enter a number"));
+         if(no==1)
+         {
+            alert("Monday")
+         }
+         else if(no==2)
+         {
+            alert("Tuesday")
+         }
+         else if(no==3)
+         {
+            alert("Wed")
+         }
+         else if(no==4)
+         {
+            alert("thursday")
+         }
+         else if(no==5)
+         {
+            alert("friday")
+         }
+         else if(no==6)
+         {
+            alert("sat")
+         }
+         else
+         {
+            alert("wrong input")
+         }
+       }
+       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       function run11()
+       {
+          let no;
+          do
+          {
+            alert("check no is less 10 or not")
+        
+          }
+          while(no<=10)
+          {
+            no=Number(prompt("enter a number"))
+            alert("no is less 10")
+          }
+          alert("done")
+
+          
+       }
+       ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+       function run12()
+       {
+        alert("1= monday   2= tuesday  3=wed  4=thurs  5=friday 6=sat  7=sunday")
+        let day=Number(prompt("enter a Number"));
+        switch(day)
+                {
+                       case 1:
+                        {
+                            alert("Monday")
+                            break;
+                        }
+                        case 2:
+                        {
+                            alert("Tuesday")
+                            break;
+                        }
+                        case 3:
+                        {
+                            alert("Wed")
+                            break;
+                        }
+                        case 4:
+                        {
+                            alert("thur")
+                            break;
+                        }
+                        case 5:
+                        {
+                            alert("friday")
+                            break;
+                        }
+                        case 6:
+                        {
+                            alert("sat")
+                            break;
+                        }  
+                        case 7:
+                        {
+                            alert("sunday")
+                            break;
+                        }  
+                        default:
+                        {
+                            alert("invalid day")
+                            break;
+                        }
+                }
+       }
+       ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       function run13()
+       {
+        alert("no 8 question ")
+        let noo=0;
+        while(noo<10)
+       {
+        noo=noo+1;
+        alert(noo);
+       }
+       }
+       run10();
+       run11();
+       run12();
+       run13();
+
+    </script>
+</body>
+</html>
